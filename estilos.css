@@ -1,0 +1,146 @@
+body {
+  margin: 0%;
+  font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Unbounded', cursive;
+align-items: center;
+position: relative;
+}
+
+header{
+  display: flex;
+  height: 59px;
+  justify-content: space-between;
+  background-color:rgb(24, 90, 93);
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  left: center;
+  background-repeat: no-repeat;
+  font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Unbounded', cursive;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -75px;
+  left: 100px;
+}
+
+a {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+  
+}
+
+nav a:hover {
+  color:rgb(24, 90, 93);
+  padding-right: 10px;
+}
+
+@media (max-widht:700px) {
+  header{
+    flex-direction: column;
+  }
+}
+
+button {
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: -155px;
+  left: 976px;
+}
+
+h2 {
+  position: relative;
+  top: -99px;
+  left: 1071px;
+  color: black;
+  align-items: center;
+  display: flex;
+}
+
+html {
+  background: url(https://www.todofondos.net/wp-content/uploads/1920x1080-Fondo-de-pantalla-verde-y-azul-1024x576.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+p {
+  color:aliceblue;
+  position: relative;
+  top: -143px;
+  left: 1150px;
+  align-items: center;
+  display: flex;
+}
+
+h4 {
+  color: blueviolet;
+  justify-content: space-between;
+  font-family: sans-serif;
+  position: relative;
+  left: 150px;
+  align-items: center;
+  display: flex;
+}
+
+img {
+  display: flex;
+  justify-self: center;
+  position: relative;
+  height: 250px;
+  top: -80px;
+  left: 580px;
+  text-align: center;
+  margin: 0px;  
+  padding: 0px;
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 50%;
+  align-items: center;
+}
+
+h4 {
+  justify-self: center;
+  position: relative;
+  top: 280px;
+  left: 310px;
+  height: 40px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Unbounded', cursive;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  display: flex;
+}
+
+.icon {
+  height: 100px;
+  align-items: center;
+    display: flex;
+}
+
+input {
+  position: relative;
+  top: -155px;
+  left: 980px;
+  align-items: center;
+  
+}
